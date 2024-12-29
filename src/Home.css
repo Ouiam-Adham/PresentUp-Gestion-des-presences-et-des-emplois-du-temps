@@ -1,0 +1,82 @@
+a{
+    text-decoration: none !important;
+}
+.main{
+    display:flex;
+    justify-content: space-around;
+}
+.cardimg{
+border: 1px solid rgb(203, 203, 249) !important;
+width: 500px;
+height:470px;
+background-image: url('C:\presentable\public\images\blue.jpg'); 
+background-size: cover;
+background-position: center; 
+transition: transform 0.3s ease-in-out;
+position: relative;
+overflow: hidden;
+border-radius: 15px;
+
+
+
+
+}
+
+.titre1{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.cardimg:hover{
+    width: 510px ;
+    height: 460px;
+    transform: scale(1.02);
+    
+}
+header{
+    position:sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+}
+.bottom nav{
+ 
+}
+.top nav{
+    margin: 15px !important;
+    box-sizing: border-box;
+    height: 35px !important;
+}
+.admin{
+    width: 45px;
+    height: 33px;  
+}
+.admintag{
+    text-align: center;
+}
+.dropdowns{
+width: 41.5%;
+display: flex;
+justify-content: space-between;
+
+}
+.dropdown{
+    background-color: rgb(33, 74, 109);
+    border-radius: 10px;
+}
+.dropdown-toggle{
+    color: white;
+}
+
+.brand{
+    padding: 0;
+    margin: 0;
+    width:230px ;
+    height: 60px ;
+    display: block;
+}
+
+   
