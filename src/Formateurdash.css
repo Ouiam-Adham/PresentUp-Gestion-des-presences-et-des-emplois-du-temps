@@ -1,0 +1,148 @@
+:root{
+    --lighterblue:rgba(60, 137, 215, 0.784);
+    --darkerblue:2px 1px 1px rgb(41, 90, 151);
+    --darkestblue:rgba(111, 163, 235, 0.397);
+    --thegrey:rgba(105, 113, 105, 0.715);
+    --theyellow:#CAC531;
+    --insideyellow:rgb(9, 83, 114);
+    --input:azure
+}
+
+
+.topbar{
+height: 85px;
+position: fixed;
+top: 0;
+left: 300px;
+background-color: rgba(60, 137, 215, 0.784);
+width: calc(100% - 310px);
+padding: 10px 0px;
+margin: 5px 0px;
+box-sizing: border-box;
+border-radius:5px ;
+display: flex;
+align-items: center;
+z-index: 1000;
+}
+
+
+.display{
+ display: flex;
+ flex: 1;
+ flex-direction: column;
+ box-sizing: border-box;    
+}
+
+.absence{
+    position: absolute;
+    left: 300px;
+    top: 220px;
+}
+.sidebar-ul{
+    list-style: none;
+    margin: 0px;
+    padding: 15px;
+    width: 249px;
+
+}
+.sidebar-ul li{
+    margin: 30px 0px;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /* Full viewport height */
+    padding: 0 20px;
+    box-shadow: 2px 1px 1px rgb(41, 90, 151);
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+}
+.sidebar.open{
+    width: 320px;
+
+}
+.sidebar.collapsed{
+    width: 100x;
+
+}
+.sideitem{
+
+    width: 250px;
+    height: 100%;
+    border-radius: 10px;
+    color: rgba(105, 113, 105, 0.715);
+
+}
+
+.headerdash{
+    height: 100px;
+    width: calc(100% - 230px);
+    background-color: rgba(111, 163, 235, 0.397);
+    position: relative;
+    left: 260px;
+    top:90px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.footerdash{
+    position: absolute;
+    bottom: 0px;
+    left: 320px;
+    width: calc(100% - 330px);
+    padding: 0 20px;
+}
+.presentup{
+    font-weight: bolder;
+    color: rgb(60, 137, 215);
+    justify-content: start;
+    align-items: center;
+    padding: 0 8px;
+
+}
+.presentup-para{
+    padding: 15px 0px;
+    margin-top: 15px;
+    font-family: cursive;
+    font-size:22px;
+
+}
+
+input{
+    margin: 0 60px;
+    border-radius: 10px;
+    height: 35px;
+    border: 1px solid rgb(176, 177, 194);
+}
+.user{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user button{
+background: #CAC531;  /* Chrome 10-25, Safari 5.1-6 */
+height: 35px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 1px solid #CCAC53;
+    color: rgb(9, 83, 114);
+}
+.avatar{
+    margin: 0 10px;
+}
+
+.cherche{
+    display: flex;
+    justify-content: space-around;
+}
+
+.absence{
+    position: absolute;
+}
+.icon-side{
+    width: 40px;
+    padding-right: 5px;
+}

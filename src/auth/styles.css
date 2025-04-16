@@ -1,0 +1,44 @@
+.custom-nav-tabs {
+  padding: 0;
+  margin: 0;
+  border-bottom: 2px solid #ddd; /* Optional: Adds bottom border like classic tabs */
+}
+
+.custom-nav-tabs .nav-item {
+  flex-grow: 1;
+  text-align: center;
+  padding-left: 0 !important;
+  
+}
+
+.custom-nav-tabs .nav-link {
+  width: 100%;
+  border-radius: 0; /* Removes rounded corners */
+  margin: 0px;
+  border-bottom: 3px solid transparent; /* Default no underline */
+  padding: 12px 0;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Active tab */
+.custom-nav-tabs .nav-link.active {
+  border-bottom: 3px solid #007bff;
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+.form-content {
+    padding: 20px;
+  }
+  .nav {
+    width: 100%;
+    display: flex;
+  }
+  .form-button{
+    background-color: var(--theyellow);
+  }
+
+
+  input:-webkit-autofill {
+    background-color: transparent !important;
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
