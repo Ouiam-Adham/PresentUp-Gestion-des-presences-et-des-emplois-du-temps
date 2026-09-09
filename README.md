@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# PresentUp – Attendance & Timetable Management Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+**PresentUp** is a web application designed to facilitate the management of attendance, absences, timetables, and training-related information.
 
-In the project directory, you can run:
+The application centralizes information about **trainees, trainers, groups, modules, sessions, absences, and justifications** in a structured and user-friendly interface.
 
-### `npm start`
+PresentUp was developed using **React.js and Redux** for the frontend and **Laravel/PHP** for the backend.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* 📋 Attendance and absence management
+* 📅 Timetable and session management
+* 👨‍🎓 Trainee management
+* 👨‍🏫 Trainer management
+* 👥 Group management
+* 📚 Module management
+* 🕐 Course and session management
+* 📝 Absence justification management
+* 🔄 State management with Redux
+* 🖥️ Responsive user interface
 
-### `npm test`
+## Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
 
-### `npm run build`
+* React.js
+* JavaScript
+* Redux
+* Bootstrap
+* HTML5
+* CSS3
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Backend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Laravel
+* PHP
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Database
 
-### `npm run eject`
+* MySQL
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Tools
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Git
+* GitHub
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Architecture
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+PresentUp follows a frontend/backend architecture:
 
-## Learn More
+**Frontend**
+React.js + Redux
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Backend**
+Laravel + PHP
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Database**
+MySQL
 
-### Code Splitting
+The frontend manages the user interface and application state, while the Laravel backend handles server-side logic and data management.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Academic Project
 
-### Analyzing the Bundle Size
+**PresentUp was developed as a final academic project during the training year at the Cité des Métiers et des Compétences (CMC) de Rabat.**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The project was developed as a practical application of the web development concepts and technologies acquired throughout the academic year, combining frontend development, backend development, state management, and database management.
 
-### Making a Progressive Web App
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Frontend
 
-### Advanced Configuration
+Install the dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm install
+```
 
-### Deployment
+Start the React application according to the project's configuration.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Backend
 
-### `npm run build` fails to minify
+Install the Laravel dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+composer install
+```
+
+Configure the `.env` file with the appropriate database connection.
+
+Start the Laravel development server:
+
+```bash
+php artisan serve
+```
+
+### Database
+
+Run the Laravel migrations:
+
+```bash
+php artisan migrate
+```
+
+If seeders are available:
+
+```bash
+php artisan db:seed
+```
+
+## Purpose
+
+PresentUp was developed to provide a structured solution for managing attendance, absences, timetables, and training-related information while applying full-stack web development concepts in a practical academic project.
+
+## Author
+
+**Ouiam Adham**
+
+Full-Stack Web Development
+Cité des Métiers et des Compétences (CMC) de Rabat
